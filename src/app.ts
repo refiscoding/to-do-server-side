@@ -10,9 +10,9 @@ const PORT: string | number = process.env.PORT || 4000
 app.use(cors())
 app.use(todoRoutes)
 
-// mongodb+srv://refcodes:<password>@cluster0.0xgrx3f.mongodb.net/test
-// mongodb+srv://refcodes:<password>@cluster0.0xgrx3f.mongodb.net/?retryWrites=true&w=majority
-const uri: string = `mongodb+srv://refcodes:jWCPtWsqZEFJe3bs@cluster0.0xgrx3f.mongodb.net/?retryWrites=true&w=majority`
+// mongodb+srv://username:<password>@cluster0.0xgrx3f.mongodb.net/test
+// mongodb+srv://username:<password>@cluster0.0xgrx3f.mongodb.net/?retryWrites=true&w=majority
+const uri: string = `mongodb+srv://username:<password>@cluster0.0xgrx3f.mongodb.net/?retryWrites=true&w=majority`
 const options = { useNewUrlParser: true, useUnifiedTopology: true }
 mongoose.set('useFindAndModify', false)
 
