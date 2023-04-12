@@ -1,0 +1,7 @@
+{
+  "env": {
+    "MONGO_USER": "refcodes",
+    "MONGO_PASSWORD": "jWCPtWsqZEFJe3bs",
+    "MONGO_DB": "test"
+  }
+}
