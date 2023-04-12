@@ -11,7 +11,7 @@ const app = express_1.default();
 const PORT = process.env.PORT || 4000;
 app.use(cors_1.default());
 app.use(routes_1.default);
-const uri = `mongodb+srv://refcodes:jWCPtWsqZEFJe3bs@cluster0.0xgrx3f.mongodb.net/?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://username:<password>@cluster0.0xgrx3f.mongodb.net/?retryWrites=true&w=majority`;
 const options = { useNewUrlParser: true, useUnifiedTopology: true };
 mongoose_1.default.set('useFindAndModify', false);
 mongoose_1.default
